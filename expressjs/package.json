@@ -1,0 +1,16 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Misha",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "multer": "^1.4.1"
+  }
+}
