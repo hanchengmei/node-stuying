@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24a3bdf4-2ce8-44e3-adfa-9e52e834fdba" name="Default Changelist" comment="" />
+    <list default="true" id="24a3bdf4-2ce8-44e3-adfa-9e52e834fdba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -72,36 +74,57 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="36706982">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="js" value="18" />
+          <entry key="json" value="3" />
+          <entry key="www" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="19" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="3492" />
+          <entry key="json" value="31" />
+          <entry key="www" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="31" />
+          <entry key="JavaScript" value="3495" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/14-blog-koa2/app.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="249">
-                  <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/13-blog-express/app.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="125">
-                  <caret line="20" selection-start-line="20" selection-end-line="33" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/16-sequelize/src/seq.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -131,19 +154,12 @@
       <dir>F:\study\node\nodejs2\13-blog-express</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/04-blog1/bin/htpp.js" />
-        <option value="$PROJECT_DIR$/04-blog1/bin/http.js" />
-        <option value="$PROJECT_DIR$/04-blog1/package.json" />
-        <option value="$PROJECT_DIR$/04-blog1/bin/www.js" />
-        <option value="$PROJECT_DIR$/04-blog1/src/module/resModule.js" />
-        <option value="$PROJECT_DIR$/05-callback/file/a.json" />
-        <option value="$PROJECT_DIR$/05-callback/file/b.json" />
-        <option value="$PROJECT_DIR$/05-callback/file/c.json" />
-        <option value="$PROJECT_DIR$/05-callback/index.js" />
-        <option value="$PROJECT_DIR$/06-promise/index.js" />
         <option value="$PROJECT_DIR$/04-blog1/src/model/resModel.js" />
         <option value="$PROJECT_DIR$/04-blog1/src/my.ini" />
         <option value="$PROJECT_DIR$/07-mysql/index.js" />
@@ -185,6 +201,16 @@
         <option value="$PROJECT_DIR$/13-blog-express/controller/blog.js" />
         <option value="$PROJECT_DIR$/14-blog-koa2/routes/blog.js" />
         <option value="$PROJECT_DIR$/14-blog-koa2/app.js" />
+        <option value="$PROJECT_DIR$/15-weibo-koa2/bin/www" />
+        <option value="$PROJECT_DIR$/15-weibo-koa2/src/app.js" />
+        <option value="$PROJECT_DIR$/15-weibo-koa2/package.json" />
+        <option value="$PROJECT_DIR$/16-sequelize/src/sync.js" />
+        <option value="$PROJECT_DIR$/16-sequelize/src/model.js" />
+        <option value="$PROJECT_DIR$/16-sequelize/src/create.js" />
+        <option value="$PROJECT_DIR$/16-sequelize/src/select.js" />
+        <option value="$PROJECT_DIR$/16-sequelize/src/update.js" />
+        <option value="$PROJECT_DIR$/16-sequelize/src/delete.js" />
+        <option value="$PROJECT_DIR$/16-sequelize/src/seq.js" />
       </list>
     </option>
   </component>
@@ -197,11 +223,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/04-blog1/node_modules" />
     <handled-path value="$PROJECT_DIR$/07-mysql/node_modules" />
     <handled-path value="$PROJECT_DIR$/08-redis/node_modules" />
-    <handled-path value="$PROJECT_DIR$/13-blog-express/node_modules" />
-    <handled-path value="$PROJECT_DIR$/14-blog-koa2/node_modules" />
+    <handled-path value="$PROJECT_DIR$/15-weibo-koa2/node_modules" />
+    <handled-path value="$PROJECT_DIR$/16-sequelize/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -211,169 +236,47 @@
       <path value="$PROJECT_DIR$/04-blog1/package.json" />
       <path value="$PROJECT_DIR$/07-mysql/package.json" />
       <path value="$PROJECT_DIR$/08-redis/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_async@2.6.3@async/node_modules/lodash/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_async@2.6.3@async/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_basic-auth@1.1.0@basic-auth/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_colors@1.4.0@colors/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_corser@2.0.1@corser/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_debug@3.2.6@debug/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_debug@3.2.6@debug/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_ecstatic@3.3.2@ecstatic/node_modules/he/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_ecstatic@3.3.2@ecstatic/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_ecstatic@3.3.2@ecstatic/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_ecstatic@3.3.2@ecstatic/node_modules/url-join/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_ecstatic@3.3.2@ecstatic/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_eventemitter3@4.0.0@eventemitter3/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_follow-redirects@1.9.0@follow-redirects/node_modules/debug/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_follow-redirects@1.9.0@follow-redirects/node_modules/debug/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_follow-redirects@1.9.0@follow-redirects/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_he@1.2.0@he/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-proxy@1.18.0@http-proxy/node_modules/eventemitter3/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-proxy@1.18.0@http-proxy/node_modules/follow-redirects/node_modules/debug/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-proxy@1.18.0@http-proxy/node_modules/follow-redirects/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-proxy@1.18.0@http-proxy/node_modules/follow-redirects/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-proxy@1.18.0@http-proxy/node_modules/requires-port/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_http-proxy@1.18.0@http-proxy/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/basic-auth/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/colors/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/corser/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/ecstatic/node_modules/he/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/ecstatic/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/ecstatic/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/ecstatic/node_modules/url-join/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/ecstatic/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/http-proxy/node_modules/eventemitter3/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/http-proxy/node_modules/follow-redirects/node_modules/debug/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/http-proxy/node_modules/follow-redirects/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/http-proxy/node_modules/follow-redirects/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/http-proxy/node_modules/requires-port/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/http-proxy/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/opener/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/optimist/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/optimist/node_modules/wordwrap/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/optimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/portfinder/node_modules/async/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/portfinder/node_modules/async/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/portfinder/node_modules/debug/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/portfinder/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/portfinder/node_modules/mkdirp/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/portfinder/node_modules/mkdirp/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/portfinder/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/secure-compare/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/union/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/node_modules/union/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_http-server@0.12.0@http-server/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_lodash@4.17.15@lodash/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_mime@1.6.0@mime/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_minimist@0.0.10@minimist/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_minimist@0.0.8@minimist/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_minimist@1.2.0@minimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_mkdirp@0.5.1@mkdirp/node_modules/minimist/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_mkdirp@0.5.1@mkdirp/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_ms@2.1.2@ms/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_opener@1.5.1@opener/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_optimist@0.6.1@optimist/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_optimist@0.6.1@optimist/node_modules/wordwrap/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_optimist@0.6.1@optimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_portfinder@1.0.25@portfinder/node_modules/async/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_portfinder@1.0.25@portfinder/node_modules/async/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_portfinder@1.0.25@portfinder/node_modules/debug/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_portfinder@1.0.25@portfinder/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_portfinder@1.0.25@portfinder/node_modules/mkdirp/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_portfinder@1.0.25@portfinder/node_modules/mkdirp/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_portfinder@1.0.25@portfinder/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_qs@6.9.1@qs/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_requires-port@1.0.0@requires-port/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_secure-compare@3.0.1@secure-compare/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/_union@0.5.0@union/node_modules/qs/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_union@0.5.0@union/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_url-join@2.0.5@url-join/package.json" />
       <path value="$PROJECT_DIR$/09-html/node_modules/_wordwrap@0.0.3@wordwrap/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/async/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/async/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/basic-auth/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/colors/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/corser/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/debug/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/ecstatic/node_modules/he/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/ecstatic/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/ecstatic/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/ecstatic/node_modules/url-join/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/ecstatic/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/eventemitter3/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/follow-redirects/node_modules/debug/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/follow-redirects/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/follow-redirects/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/he/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-proxy/node_modules/eventemitter3/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-proxy/node_modules/follow-redirects/node_modules/debug/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-proxy/node_modules/follow-redirects/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-proxy/node_modules/follow-redirects/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-proxy/node_modules/requires-port/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-proxy/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/basic-auth/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/colors/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/corser/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/ecstatic/node_modules/he/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/ecstatic/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/ecstatic/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/ecstatic/node_modules/url-join/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/ecstatic/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/http-proxy/node_modules/eventemitter3/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/http-proxy/node_modules/follow-redirects/node_modules/debug/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/http-proxy/node_modules/follow-redirects/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/http-proxy/node_modules/follow-redirects/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/http-proxy/node_modules/requires-port/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/http-proxy/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/opener/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/optimist/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/optimist/node_modules/wordwrap/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/optimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/portfinder/node_modules/async/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/portfinder/node_modules/async/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/portfinder/node_modules/debug/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/portfinder/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/portfinder/node_modules/mkdirp/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/portfinder/node_modules/mkdirp/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/portfinder/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/secure-compare/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/union/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/node_modules/union/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/http-server/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/mkdirp/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/mkdirp/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/opener/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/optimist/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/optimist/node_modules/wordwrap/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/optimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/portfinder/node_modules/async/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/portfinder/node_modules/async/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/portfinder/node_modules/debug/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/portfinder/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/portfinder/node_modules/mkdirp/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/portfinder/node_modules/mkdirp/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/portfinder/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/requires-port/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/secure-compare/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/union/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/union/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/url-join/package.json" />
-      <path value="$PROJECT_DIR$/09-html/node_modules/wordwrap/package.json" />
       <path value="$PROJECT_DIR$/13-blog-express/package.json" />
       <path value="$PROJECT_DIR$/14-blog-koa2/package.json" />
+      <path value="$PROJECT_DIR$/15-weibo-koa2/package.json" />
+      <path value="$PROJECT_DIR$/16-sequelize/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -391,18 +294,13 @@
             <path>
               <item name="nodejs2" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodejs2" type="462c0819:PsiDirectoryNode" />
-              <item name="13-blog-express" type="462c0819:PsiDirectoryNode" />
+              <item name="16-sequelize" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nodejs2" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodejs2" type="462c0819:PsiDirectoryNode" />
-              <item name="14-blog-koa2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodejs2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejs2" type="462c0819:PsiDirectoryNode" />
-              <item name="14-blog-koa2" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="16-sequelize" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -412,23 +310,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/project/yaobaoer_applet_20" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\study\node\nodejs2\12-stream-2" />
-      <recent name="F:\study\node\nodejs2\07-mysql" />
-      <recent name="F:\study\node\nodejs2\06-promise" />
-      <recent name="F:\study\node\nodejs2\05-callback\file" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\study\node\nodejs2\13-blog-express" />
       <recent name="F:\study\node\nodejs2\04-blog1" />
       <recent name="F:\study\node\nodejs2\01-get" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\study\node-stuying\nodejs2\15-weibo-koa2" />
+      <recent name="F:\study\node\nodejs2\12-stream-2" />
+      <recent name="F:\study\node\nodejs2\07-mysql" />
+      <recent name="F:\study\node\nodejs2\06-promise" />
+      <recent name="F:\study\node\nodejs2\05-callback\file" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -471,14 +370,17 @@
       <workItem from="1576140086083" duration="2685000" />
       <workItem from="1576199750312" duration="11133000" />
       <workItem from="1576219763976" duration="9162000" />
+      <workItem from="1576464978915" duration="12664000" />
+      <workItem from="1576544918135" duration="6966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125830000" />
+    <option name="totallyTimeSpent" value="145460000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.102212854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -494,7 +396,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3470716" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27470142" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -507,86 +409,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/11-stream/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12-stream-2/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-stream/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-html/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="89" column="15" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1800" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-html/new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-825" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-html/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/nginx/nginx-1.16.1/conf/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-html/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="81" column="43" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-blog1/src/controller/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-blog1/logs/access.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-blog1/src/utils/log.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-blog1/src/controller/blog.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -748,13 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14-blog-koa2/db/redis.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/14-blog-koa2/db/redis.js" />
     <entry file="file://$PROJECT_DIR$/14-blog-koa2/middleware/loginCheck.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -766,10 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-          <folding>
-            <element signature="e#326#973#0" />
-            <element signature="e#1024#1173#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -791,10 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-          <folding>
-            <element signature="e#130#397#0" />
-            <element signature="e#1277#1702#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -809,10 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-175">
           <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding>
-            <element signature="e#327#1116#0" />
-            <element signature="e#1168#1256#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -823,6 +627,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/14-blog-koa2/logs/access.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14-blog-koa2/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/13-blog-express/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -830,13 +644,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14-blog-koa2/logs/access.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/14-blog-koa2/app.js">
+    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        <state relative-caret-position="425">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="7" selection-start-line="12" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16-sequelize/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16-sequelize/src/sync.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16-sequelize/src/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="e#480#743#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16-sequelize/src/select.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="104" column="19" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16-sequelize/src/update.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16-sequelize/src/create.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="41" />
+          <folding>
+            <element signature="e#738#818#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16-sequelize/src/delete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16-sequelize/src/seq.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
