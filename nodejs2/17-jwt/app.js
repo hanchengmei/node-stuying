@@ -1,30 +1,19 @@
- const Koa = require('koa')
+const Koa = require('koa')
 const app = new Koa()
 const views = require('koa-views')
 const json = require('koa-json')
 const onerror = require('koa-onerror')
 const bodyparser = require('koa-bodyparser')
 const logger = require('koa-logger')
-const session = require('koa-generic-session')
-const RedisStore = require('koa-redis')
-const { REDIS_CONF } = require('./conf/db')
-const { isProd } = require('./utils/env')
 
+const koajwt = require('koa-jwt')
+const { SECRET } = require('./conf/contants')
 
-// router
 const index = require('./routes/index')
 const users = require('./routes/users')
-const errorRouterView = require('./routes/views/error')
 
 // error handler
-let onErrorConf = {}
-if (isProd) {
-    // 正式环境接口报错时跳转到404接口
-    onErrorConf = {
-        redirect: '/404'
-    }
-}
-onerror(app, onErrorConf)
+onerror(app)
 
 // middlewares
 app.use(bodyparser({
@@ -35,7 +24,7 @@ app.use(logger())
 app.use(require('koa-static')(__dirname + '/public'))
 
 app.use(views(__dirname + '/views', {
-  extension: 'ejs'
+  extension: 'pug'
 }))
 
 // logger
@@ -46,25 +35,16 @@ app.use(async (ctx, next) => {
   console.log(`${ctx.method} ${ctx.url} - ${ms}ms`)
 })
 
-// session
-app.keys = ['ddfd44_dd']
-app.use(session({
-    key: 'weibo.sid', // cookie name 默认是koa.sid
-    prefix: 'weibo:sess', // redis key前缀 默认是koa:sess
-    cookie: {
-      path: '/',
-      httpOnly: true,
-      maxAge: 24 * 60 * 60 * 1000 // cookie过期时间
-    },
-    store: RedisStore({
-        all: `${REDIS_CONF.host}:${REDIS_CONF.port}`
-    })
+// jwt
+app.use(koajwt({
+    secret: SECRET,
+}).unless({
+    path: [/^\/users\/login/] // 自定义不需要token验证的接口
 }))
 
-// 注册routes
+// routes
 app.use(index.routes(), index.allowedMethods())
 app.use(users.routes(), users.allowedMethods())
-app.use(errorRouterView.routes(), errorRouterView.allowedMethods())
 
 // error-handling
 app.on('error', (err, ctx) => {

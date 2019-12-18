@@ -62,8 +62,8 @@ app.use(session({
   // 配置cookie
   cookie: {
     path: '/',
-      httpOnly: true,
-      maxAge: 24 * 60 * 60 * 1000
+    httpOnly: true,
+    maxAge: 24 * 60 * 60 * 1000
   },
   // 配置redis
   store: RedisStore({
