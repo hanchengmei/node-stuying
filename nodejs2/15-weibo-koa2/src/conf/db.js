@@ -14,7 +14,7 @@ MYSQL_CONF = {
   host: 'localhost',
   user: 'root',
   password: 'admin',
-  dataBase: '' // 数据库名称
+  dataBase: 'weibo' // 数据库名称
 }
 
 if (isProd) {
@@ -28,10 +28,11 @@ if (isProd) {
     MYSQL_CONF = {
         user: 'root',
         password: 'admin',
-        dataBase: '' // 数据库名称
+        dataBase: 'weibo' // 数据库名称
     }
 }
 
 module.exports = {
-  REDIS_CONF
+  REDIS_CONF,
+  MYSQL_CONF
 }

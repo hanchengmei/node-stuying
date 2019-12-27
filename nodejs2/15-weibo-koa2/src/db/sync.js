@@ -3,7 +3,7 @@
  * @type {Sequelize}
  */
 const seq = require('./seq')
-// require('./model')
+require('./model/index')
 
 // 测试是否连接
 seq.authenticate().then(() => {

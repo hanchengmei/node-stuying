@@ -5,6 +5,7 @@ const json = require('koa-json')
 const onerror = require('koa-onerror')
 const bodyparser = require('koa-bodyparser')
 const logger = require('koa-logger')
+
 const session = require('koa-generic-session')
 const RedisStore = require('koa-redis')
 const { REDIS_CONF } = require('./conf/db')
@@ -12,8 +13,7 @@ const { isProd } = require('./utils/env')
 
 
 // router
-const index = require('./routes/index')
-const users = require('./routes/users')
+const userRouterView = require('./routes/views/user')
 const errorRouterView = require('./routes/views/error')
 
 // error handler
@@ -62,9 +62,8 @@ app.use(session({
 }))
 
 // 注册routes
-app.use(index.routes(), index.allowedMethods())
-app.use(users.routes(), users.allowedMethods())
-app.use(errorRouterView.routes(), errorRouterView.allowedMethods())
+app.use(userRouterView.routes(), userRouterView.allowedMethods())
+// app.use(errorRouterView.routes(), errorRouterView.allowedMethods())
 
 // error-handling
 app.on('error', (err, ctx) => {
