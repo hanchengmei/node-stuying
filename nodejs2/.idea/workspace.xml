@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="24a3bdf4-2ce8-44e3-adfa-9e52e834fdba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-weibo-koa2/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/15-weibo-koa2/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-weibo-koa2/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/15-weibo-koa2/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-weibo-koa2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/15-weibo-koa2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-weibo-koa2/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/15-weibo-koa2/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-weibo-koa2/src/conf/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/15-weibo-koa2/src/conf/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-weibo-koa2/src/routes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-weibo-koa2/src/routes/users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-weibo-koa2/src/routes/views/error.js" beforeDir="false" afterPath="$PROJECT_DIR$/15-weibo-koa2/src/routes/views/error.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-weibo-koa2/src/views/error.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/15-weibo-koa2/src/views/error.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-weibo-koa2/src/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/15-weibo-koa2/src/views/404.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-weibo-koa2/src/db/model/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/15-weibo-koa2/src/db/model/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -138,37 +129,125 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-618170984">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="272" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="272" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16-sequelize/src/model.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/db/types.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/db/model/User.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/db/model/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="95">
+                  <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/db/redis.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="342">
+                  <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/db/sync.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="304">
+                  <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/db/types.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="57">
+                  <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/db/model/User.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="380">
+                  <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/routes/api/user.js">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/routes/views/error.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="190">
+                  <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="475">
+                  <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/db/model/Blog.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="342">
+                  <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="21" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -207,8 +286,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/04-blog1/app.js" />
-        <option value="$PROJECT_DIR$/04-blog1/src/utils/readline.js" />
         <option value="$PROJECT_DIR$/13-blog-express/conf/db.js" />
         <option value="$PROJECT_DIR$/13-blog-express/db/mysql.js" />
         <option value="$PROJECT_DIR$/13-blog-express/bin/www" />
@@ -258,6 +335,8 @@
         <option value="$PROJECT_DIR$/14-blog-koa2/model/resModel.js" />
         <option value="$PROJECT_DIR$/15-weibo-koa2/src/db/types.js" />
         <option value="$PROJECT_DIR$/15-weibo-koa2/src/db/model/User.js" />
+        <option value="$PROJECT_DIR$/15-weibo-koa2/src/db/model/Blog.js" />
+        <option value="$PROJECT_DIR$/15-weibo-koa2/src/db/model/index.js" />
       </list>
     </option>
   </component>
@@ -278,7 +357,6 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/07-mysql/node_modules" />
     <handled-path value="$PROJECT_DIR$/08-redis/node_modules" />
-    <handled-path value="$PROJECT_DIR$/15-weibo-koa2/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -322,9 +400,8 @@
       <path value="$PROJECT_DIR$/17-jwt/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1903" />
-    <option name="y" value="159" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1910" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -346,30 +423,20 @@
             <path>
               <item name="nodejs2" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodejs2" type="462c0819:PsiDirectoryNode" />
-              <item name="14-blog-koa2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodejs2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejs2" type="462c0819:PsiDirectoryNode" />
-              <item name="14-blog-koa2" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodejs2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejs2" type="462c0819:PsiDirectoryNode" />
               <item name="15-weibo-koa2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodejs2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejs2" type="462c0819:PsiDirectoryNode" />
-              <item name="15-weibo-koa2" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nodejs2" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodejs2" type="462c0819:PsiDirectoryNode" />
               <item name="15-weibo-koa2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejs2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejs2" type="462c0819:PsiDirectoryNode" />
+              <item name="15-weibo-koa2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nodejs2" type="b2602c69:ProjectViewProjectNode" />
@@ -389,13 +456,9 @@
             <path>
               <item name="nodejs2" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodejs2" type="462c0819:PsiDirectoryNode" />
-              <item name="16-sequelize" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodejs2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejs2" type="462c0819:PsiDirectoryNode" />
-              <item name="16-sequelize" type="462c0819:PsiDirectoryNode" />
+              <item name="15-weibo-koa2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -406,7 +469,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/15-weibo-koa2" />
+    <property name="last_opened_file_path" value="F:/project/yaobaoerhoutai" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -482,14 +545,17 @@
       <workItem from="1576646888138" duration="103000" />
       <workItem from="1576647024401" duration="622000" />
       <workItem from="1576648520095" duration="18000" />
+      <workItem from="1577689283125" duration="2493000" />
+      <workItem from="1578278100889" duration="2005000" />
+      <workItem from="1578360762464" duration="15000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169551000" />
+    <option name="totallyTimeSpent" value="174064000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1910" y="0" width="1936" height="1056" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.102212854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -505,7 +571,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.25841478" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17263843" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -518,21 +584,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/14-blog-koa2/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/14-blog-koa2/db/redis.js" />
-    <entry file="file://$PROJECT_DIR$/14-blog-koa2/middleware/loginCheck.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/13-blog-express/routes/blog.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -578,20 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/16-sequelize/src/update.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16-sequelize/src/delete.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-blog1/src/conf/db.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
@@ -603,13 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/db/redis.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -670,13 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/db/sync.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/13-blog-express/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -733,20 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/16-sequelize/src/create.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16-sequelize/src/select.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="104" column="19" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/views/layout/footer.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -769,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/conf/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/views/404.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -783,24 +785,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/15-weibo-koa2/bin/www">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/routes/views/error.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -818,13 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/db/seq.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/14-blog-koa2/db/mysql.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
@@ -832,24 +813,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/16-sequelize/src/delete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16-sequelize/src/update.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16-sequelize/src/select.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16-sequelize/src/create.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/16-sequelize/src/model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
+        <state relative-caret-position="275">
           <caret line="35" column="31" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/conf/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/db/seq.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/db/model/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/db/redis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/db/sync.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/db/types.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="57">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/db/model/User.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        <state relative-caret-position="380">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/routes/api/user.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/routes/views/error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-weibo-koa2/src/db/model/Blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
