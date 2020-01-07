@@ -13,7 +13,8 @@ const { isProd } = require('./utils/env')
 
 
 // router
-const userRouterView = require('./routes/views/user')
+const userViewRouter = require('./routes/views/user')
+const userAPIRouter = require('./routes/api/user')
 const errorRouterView = require('./routes/views/error')
 
 // error handler
@@ -62,7 +63,8 @@ app.use(session({
 }))
 
 // 注册routes
-app.use(userRouterView.routes(), userRouterView.allowedMethods())
+app.use(userViewRouter.routes(), userViewRouter.allowedMethods())
+app.use(userAPIRouter.routes(), userAPIRouter.allowedMethods())
 // app.use(errorRouterView.routes(), errorRouterView.allowedMethods())
 
 // error-handling

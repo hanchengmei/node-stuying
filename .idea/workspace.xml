@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="420ab780-9c04-4749-89ae-30efb30b9158" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/api/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,23 +56,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ejs" value="2" />
-          <entry key="js" value="7" />
+          <entry key="js" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="EJS" value="2" />
-          <entry key="JavaScript" value="7" />
+          <entry key="JavaScript" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="621" />
+          <entry key="js" value="691" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="621" />
+          <entry key="JavaScript" value="691" />
         </counts>
       </usages-collector>
     </session>
@@ -91,6 +91,15 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="456">
+                  <caret line="66" column="61" selection-start-line="66" selection-start-column="61" selection-end-line="66" selection-end-column="61" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/db/model/Blog.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="285">
@@ -192,6 +201,7 @@
         <option value="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/api/user.js" />
         <option value="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/service/user.js" />
         <option value="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/controller/user.js" />
+        <option value="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/app.js" />
       </list>
     </option>
   </component>
@@ -1169,6 +1179,19 @@
               <item name="node-stuying" type="462c0819:PsiDirectoryNode" />
               <item name="nodejs2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="node-stuying" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-stuying" type="462c0819:PsiDirectoryNode" />
+              <item name="nodejs2" type="462c0819:PsiDirectoryNode" />
+              <item name="15-weibo-koa2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-stuying" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-stuying" type="462c0819:PsiDirectoryNode" />
+              <item name="nodejs2" type="462c0819:PsiDirectoryNode" />
+              <item name="15-weibo-koa2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -1205,12 +1228,12 @@
       <updated>1578378305720</updated>
       <workItem from="1578378306917" duration="3412000" />
       <workItem from="1578384710718" duration="1537000" />
-      <workItem from="1578386681320" duration="2329000" />
+      <workItem from="1578386681320" duration="2508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7278000" />
+    <option name="totallyTimeSpent" value="7457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1276,13 +1299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/db/model/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/register.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -1334,6 +1350,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/db/model/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="66" column="61" selection-start-line="66" selection-start-column="61" selection-end-line="66" selection-end-column="61" />
         </state>
       </provider>
     </entry>
