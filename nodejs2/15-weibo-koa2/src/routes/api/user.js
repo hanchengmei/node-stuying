@@ -3,7 +3,7 @@
  * 此层可以校验登录，用户信息等
  */
 const router = require('koa-router')()
-const { isExist } = require('../../controller/user')
+const { isExist, register } = require('../../controller/user')
 
 // 给路由加前缀
 router.prefix('/api/user')
@@ -16,7 +16,12 @@ router.post('/isExist', async (ctx, next) => {
 
 // 注册
 router.post('/register', async (ctx, next) => {
-
+    const { userName, password, gender } = ctx.request.body
+    ctx.body = await register({
+        userName,
+        password,
+        gender
+    })
 })
 
 module.exports = router

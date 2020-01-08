@@ -12,27 +12,47 @@ const { formatUserList } = require('./_format')
  * @param(string) password 密码
  */
 async function getUserInfo(userName, password) {
+    // 查询条件
     const whereOption = {
         userName
     }
     if (password) {
         Object.assign(whereOption, {password})
     }
-    console.log('whereOption', whereOption)
+    // 查询
     const result = await User.findOne({
         attributes: ['userName', 'nickName', 'gender', 'picture', 'city'],
         where: whereOption
 
     })
-    console.log('数据库查询结果',result)
     if (result === null) {
         // 未查询到
         return result
     }
+    // 查询到并格式化
     return formatUserList(result.dataValues)
 
 }
 
+/**
+ * 创建用户
+ * @param {string} userName 用户名
+ * @param {string} password 密码
+ * @param {number} gender 性别
+ * @param {string} nickName 昵称
+ * @returns {Promise<void>}
+ */
+async function createUser({userName, password, gender = 3, nickName}) {
+    const result = await User.create({
+        userName,
+        password,
+        gender,
+        nickName: nickName ? nickName : userName
+    })
+    return result.dataValues
+}
+
 module.exports = {
-    getUserInfo
+    getUserInfo,
+    createUser
 }

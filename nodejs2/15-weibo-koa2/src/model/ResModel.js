@@ -27,7 +27,6 @@ class SuccessModel extends BaseModel{
         super({
             errno: 0,
             data
-
         })
     }
 }
