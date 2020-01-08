@@ -18,15 +18,19 @@ async function getUserInfo(userName, password) {
     if (password) {
         Object.assign(whereOption, {password})
     }
-    const result = await User.findeOne({
+    console.log('whereOption', whereOption)
+    const result = await User.findOne({
         attributes: ['userName', 'nickName', 'gender', 'picture', 'city'],
         where: whereOption
+
     })
+    console.log('数据库查询结果',result)
     if (result === null) {
         // 未查询到
         return result
     }
     return formatUserList(result.dataValues)
+
 }
 
 module.exports = {

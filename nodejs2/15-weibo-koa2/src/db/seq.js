@@ -3,8 +3,6 @@ const Sequelize = require('sequelize')
 const { MYSQL_CONF } = require('../conf/db')
 const { isTest, isProd } = require('../utils/env')
 
-console.log('MYSQL_CONF', MYSQL_CONF)
-
 const { host, user, password, dataBase } = MYSQL_CONF
 
 const conf = {

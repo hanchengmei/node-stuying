@@ -18,6 +18,4 @@ const Blog = seq.define('blog', {
     }
 })
 
-module.export = {
-    Blog
-}
+module.export = Blog
