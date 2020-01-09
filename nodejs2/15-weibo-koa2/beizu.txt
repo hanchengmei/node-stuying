@@ -2,3 +2,43 @@
 api路由层router：设置页面http请求的路径，获取请求参数，校验，调用业务逻辑层，返回给页面数据
 业务逻辑层controller：业务逻辑处理，调用server层获取数据，然后统一规范返回格式
 数据处理层service: 查询数据库，格式化获取的结果，并返回给业务逻辑层,如用户头像为null,添加默认头像
+
+2、json schema 和ajv 数据校验 #vidator文件夹
+表单提交时，在路由层用中间件校验数据是否符合schema规则，不符合，则返回错误，符合则next()
+
+① schema规则
+const SCHEMA = {
+    type: 'object',
+    properties: {
+        userName: {
+            type: 'string',
+            pattern: '',
+            maxLength: 255,
+            minLength: 2
+        },
+    }
+}
+② ajv
+    const Ajv = require('ajv')
+    const ajv = new Ajv()
+
+    // data是需要验证的数据object
+    function validate(schema, data = {}) {
+        const valid = ajv.validate(schema, data)
+        if (!valid) {
+            return ajv.errors[0]
+        }
+    }
+
+3、crypto 加密 - node自有，不需要安装 #utils/cryp.js
+    在业务逻辑层（controller/user.js）加密
+    function _md5(content) {
+        const md5 = crypto.createHash('md5')
+        return md5.update(content).digest('hex')
+    }
+
+    // content是用户输入的密码
+    function doCrypto(content) {
+        const str = `password=${content}&key=${CRYPTO_SECRET_KEY}`
+        return _md5(str)
+    }
