@@ -3,24 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="420ab780-9c04-4749-89ae-30efb30b9158" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa2-weibo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/koa2-weibo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/beizu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/beizu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/controller/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/controller/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/api/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/404.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/404.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/layout/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/layout/header.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>3000</find>
-      <find>registerUserNameNotExistInfo</find>
-      <find>registerFailInfos</find>
-    </findStrings>
-    <dirStrings>
-      <dir>F:\study\node-stuying\nodejs2\15-weibo-koa2</dir>
-      <dir>F:\study\node-stuying\nodejs2\15-weibo-koa2\src</dir>
-      <dir>F:\study\node-stuying\koa2-weibo</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,10 +33,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\study\node-stuying\nodejs2\15-weibo-koa2\src\views" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -72,11 +71,22 @@
       <workItem from="1578446787848" duration="4898000" />
       <workItem from="1578452088835" duration="34000" />
       <workItem from="1578452234809" duration="18241000" />
-      <workItem from="1578541228292" duration="905000" />
+      <workItem from="1578541228292" duration="1572000" />
+      <workItem from="1578885686779" duration="5553000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1578893219977">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578893219977" />
+    <state x="2556" y="253" width="647" height="534" key="find.popup" timestamp="1578886185985">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2556" y="253" width="647" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578886185985" />
   </component>
 </project>

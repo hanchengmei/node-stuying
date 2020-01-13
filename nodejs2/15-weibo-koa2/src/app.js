@@ -15,6 +15,7 @@ const { isProd } = require('./utils/env')
 // router
 const userViewRouter = require('./routes/views/user')
 const userAPIRouter = require('./routes/api/user')
+ const blogViewRouter = require('./routes/views/blog')
 const errorRouterView = require('./routes/views/error')
 
 // error handler
@@ -65,6 +66,7 @@ app.use(session({
 // 注册routes
 app.use(userViewRouter.routes(), userViewRouter.allowedMethods())
 app.use(userAPIRouter.routes(), userAPIRouter.allowedMethods())
+app.use(blogViewRouter.routes(), blogViewRouter.allowedMethods())
 // app.use(errorRouterView.routes(), errorRouterView.allowedMethods())
 
 // error-handling

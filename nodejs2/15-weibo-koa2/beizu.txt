@@ -42,3 +42,5 @@ const SCHEMA = {
         const str = `password=${content}&key=${CRYPTO_SECRET_KEY}`
         return _md5(str)
     }
+
+4、

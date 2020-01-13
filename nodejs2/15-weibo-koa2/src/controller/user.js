@@ -1,13 +1,15 @@
 /**
  * @description user 业务逻辑处理，调用server层获取数据，然后统一返回格式
  */
-const { getUserInfo, createUser } = require('../service/user')
+const { getUserInfo, createUser, deleteUser } = require('../service/user')
 const { SuccessModel, ErrorModel } = require('../model/ResModel')
 const doCrypto = require('../utils/cryp')
 const {
     registerUserNameNotExistInfo,
     registerUserNameExistInfo,
-    registerFailInfo
+    registerFailInfo,
+    loginFailInfo,
+    deleteUserFailInfo
 } = require('../model/ErrorInfo')
 
 
@@ -54,7 +56,36 @@ async function register({userName, password, gender}) {
     }
 }
 
+/**
+ * 登录
+ * @param {Object} ctx
+ * @param {string} userName
+ * @param {string} password
+ * @returns {Promise<ErrorModel|SuccessModel>}
+ */
+async function login(ctx, userName, password) {
+    const userInfo = await getUserInfo(userName, doCrypto(password))
+    if (!userInfo) {
+        // 登录失败
+        return new ErrorModel(loginFailInfo)
+    }
+    // 登录成功，将用户信息放入session中，用于其他接口的是否登录验证
+    if (ctx.session.userInfo === null) {
+        ctx.session.userInfo = userInfo
+    }
+    return new SuccessModel()
+}
+
+async function deleteCurUser(userName) {
+    const result = await deleteUser(userName)
+    if (result) {
+        return new SuccessModel()
+    }
+    return new ErrorModel(deleteUserFailInfo)
+}
+
 module.exports = {
     isExist,
-    register
+    register,
+    login
 }
