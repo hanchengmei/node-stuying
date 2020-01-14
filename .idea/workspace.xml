@@ -5,11 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/koa2-weibo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/koa2-weibo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/beizu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/beizu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/controller/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/controller/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/api/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/404.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/404.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/layout/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/layout/header.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/views/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/views/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/setting.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/setting.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +19,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
   <component name="ProjectId" id="1W8plJxRzrHeDCpMLtyHisWU0uw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,13 +27,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nodejs2/15-weibo-koa2/uploadFiles" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\study\node-stuying\nodejs2\15-weibo-koa2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\study\node-stuying\nodejs2\15-weibo-koa2\uploadFiles" />
       <recent name="F:\study\node-stuying\nodejs2\15-weibo-koa2\src\views" />
     </key>
   </component>
@@ -72,7 +70,9 @@
       <workItem from="1578452088835" duration="34000" />
       <workItem from="1578452234809" duration="18241000" />
       <workItem from="1578541228292" duration="1572000" />
-      <workItem from="1578885686779" duration="5553000" />
+      <workItem from="1578885686779" duration="9553000" />
+      <workItem from="1578906357170" duration="4839000" />
+      <workItem from="1578964195901" duration="8492000" />
     </task>
     <servers />
   </component>
@@ -80,10 +80,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1578893219977">
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1578965290613">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578893219977" />
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578965290613" />
     <state x="2556" y="253" width="647" height="534" key="find.popup" timestamp="1578886185985">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

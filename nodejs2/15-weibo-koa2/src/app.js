@@ -5,6 +5,8 @@ const json = require('koa-json')
 const onerror = require('koa-onerror')
 const bodyparser = require('koa-bodyparser')
 const logger = require('koa-logger')
+const koaStatic = require('koa-static')
+const path = require('path')
 
 const session = require('koa-generic-session')
 const RedisStore = require('koa-redis')
@@ -15,7 +17,8 @@ const { isProd } = require('./utils/env')
 // router
 const userViewRouter = require('./routes/views/user')
 const userAPIRouter = require('./routes/api/user')
- const blogViewRouter = require('./routes/views/blog')
+const blogViewRouter = require('./routes/views/blog')
+const utilAPIRouter = require('./routes/api/util')
 const errorRouterView = require('./routes/views/error')
 
 // error handler
@@ -34,7 +37,11 @@ app.use(bodyparser({
 }))
 app.use(json())
 app.use(logger())
-app.use(require('koa-static')(__dirname + '/public'))
+ // 静态目录。任何文件放入都可以访问
+app.use(koaStatic(__dirname + '/public'))
+
+ // 上传图片文件夹 同上
+app.use(koaStatic(path.join(__dirname, '..', 'uploadFiles')))
 
 app.use(views(__dirname + '/views', {
   extension: 'ejs'
@@ -67,6 +74,7 @@ app.use(session({
 app.use(userViewRouter.routes(), userViewRouter.allowedMethods())
 app.use(userAPIRouter.routes(), userAPIRouter.allowedMethods())
 app.use(blogViewRouter.routes(), blogViewRouter.allowedMethods())
+app.use(utilAPIRouter.routes(), utilAPIRouter.allowedMethods())
 // app.use(errorRouterView.routes(), errorRouterView.allowedMethods())
 
 // error-handling

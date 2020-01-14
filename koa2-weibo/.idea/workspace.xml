@@ -5,10 +5,11 @@
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/beizu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/beizu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/controller/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/controller/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/routes/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/routes/api/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/views/404.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/views/404.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/routes/views/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/routes/views/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/views/setting.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/views/setting.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,9 @@
       <option name="presentableId" value="Default" />
       <updated>1578471808875</updated>
       <workItem from="1578471810232" duration="4345000" />
-      <workItem from="1578893222605" duration="3516000" />
+      <workItem from="1578893222605" duration="6795000" />
+      <workItem from="1578906356515" duration="1655000" />
+      <workItem from="1578965281842" duration="5091000" />
     </task>
     <servers />
   </component>

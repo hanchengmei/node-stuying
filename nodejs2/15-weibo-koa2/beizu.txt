@@ -43,4 +43,5 @@ const SCHEMA = {
         return _md5(str)
     }
 
-4、
+4、接口登录验证中间件 /middleware/loginChecks.js
+   根据session中是否有用户信息判断是否登录
