@@ -4,16 +4,8 @@
     <list default="true" id="26887d87-a526-468d-9c79-ba7c4578c621" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/beizu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/beizu.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/controller/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/controller/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/db/model/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/db/model/Blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/db/model/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/db/model/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/routes/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/routes/api/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/routes/views/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/routes/views/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/service/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/service/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/middlewares/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/middlewares/validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/routes/api/blog-home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/routes/api/blog-home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
