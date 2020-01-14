@@ -45,3 +45,7 @@ const SCHEMA = {
 
 4、接口登录验证中间件 /middleware/loginChecks.js
    根据session中是否有用户信息判断是否登录
+
+5、上传图片 formidable-upload-koa 插件
+
+5、修改基本信息后，需要同步session中的用户信息

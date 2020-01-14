@@ -11,7 +11,6 @@ router.prefix('/api/util')
 // 上传图片 需要登录验证，上传图片验证
 router.post('/upload', loginCheck, koaForm(), async (ctx, next) => {
     // 获取上传的路径
-    console.log('图片路径', ctx.req.files['file'])
     const file = ctx.req.files['file']
     if(!file) {
         return

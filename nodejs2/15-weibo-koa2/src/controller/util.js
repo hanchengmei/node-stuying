@@ -7,8 +7,6 @@ const path = require('path')
 const { ErrorModel, SuccessModel } = require('../model/ResModel')
 const { uploadFileSizeFailInfo } = require('../model/ErrorInfo')
 
-console.log('根目录', __dirname)
-
 //存储目录
 const DIST_FOLDER_PATH = path.join(__dirname, '..', '..', 'uploadFiles')
 // 文件最大体积 1M
@@ -38,8 +36,6 @@ async function saveFile({ name, type, size, filePath }) {
     const fileName = Date.now() + '.' + name // 防止重名
     const distFilePath = path.join(DIST_FOLDER_PATH, fileName) // 存放的文件夹
     await fse.move(filePath, distFilePath)
-
-    console.log('url:' + distFilePath)
     // 返回url
     return new SuccessModel({
         url: '/' + fileName

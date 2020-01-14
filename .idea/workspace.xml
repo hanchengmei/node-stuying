@@ -5,11 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/koa2-weibo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/koa2-weibo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/beizu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/beizu.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/controller/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/controller/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/views/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/views/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/setting.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/setting.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/controller/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/controller/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/api/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/api/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/api/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/service/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/service/user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
       <workItem from="1578541228292" duration="1572000" />
       <workItem from="1578885686779" duration="9553000" />
       <workItem from="1578906357170" duration="4839000" />
-      <workItem from="1578964195901" duration="8492000" />
+      <workItem from="1578964195901" duration="12247000" />
     </task>
     <servers />
   </component>
@@ -84,9 +84,9 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578965290613" />
-    <state x="2556" y="253" width="647" height="534" key="find.popup" timestamp="1578886185985">
+    <state x="2556" y="253" width="647" height="534" key="find.popup" timestamp="1578979975482">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2556" y="253" width="647" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578886185985" />
+    <state x="2556" y="253" width="647" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578979975482" />
   </component>
 </project>

@@ -3,10 +3,11 @@
  * 此层可以校验登录，用户信息等
  */
 const router = require('koa-router')()
-const { isExist, register, login, deleteCurUser } = require('../../controller/user')
-const { genValidator } = require('../../middlewares/validator')
-const { isTest } = require('../../utils/env')
 const userValidator = require('../../validator/user')
+const { isTest } = require('../../utils/env')
+const { isExist, register, login, deleteCurUser, changeInfo } = require('../../controller/user')
+const { genValidator } = require('../../middlewares/validator')
+const { loginCheck } = require('../../middlewares/loginChecks')
 
 // 给路由加前缀
 router.prefix('/api/user')
@@ -54,6 +55,15 @@ router.post('/delete', async (ctx, next) => {
         const { userName } = ctx.session.userInfo
         ctx.body = await deleteCurUser(userName)
     }
+})
+
+// 用户信息设置 需要登录验证和数据格式验证
+router.patch('/changeInfo', loginCheck, genValidator(userValidator), async (ctx, next) => {
+    const { nickName, city, picture } = ctx.request.body
+    ctx.body = await changeInfo(ctx, {
+        nickName, city, picture
+    })
+
 })
 
 module.exports = router
