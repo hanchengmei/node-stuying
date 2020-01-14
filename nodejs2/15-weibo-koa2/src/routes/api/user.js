@@ -1,6 +1,6 @@
 /**
  * @description user api路由，调用业务逻辑层
- * 此层可以校验登录，用户信息等
+ * 此层可以校验登录，表单数据格式验证，用户信息等
  */
 const router = require('koa-router')()
 const userValidator = require('../../validator/user')

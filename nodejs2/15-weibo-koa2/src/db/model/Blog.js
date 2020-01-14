@@ -3,14 +3,17 @@
  * @type {Sequelize}
  */
 const seq = require('../seq')
-const { STRING, TEXT, DECIMAL } = require('../types')
+const { STRING, TEXT, INTEGER } = require('../types')
 
 // blogs表
 const Blog = seq.define('blog', {
-    title: {
-        type: STRING,
+    userId: {
+        type: INTEGER,
         allowNull: false,
-        comment: '名称'
+        comment: '用户id'
+    },
+    image: {
+      type: STRING
     },
     content: {
         type: TEXT,
@@ -18,4 +21,4 @@ const Blog = seq.define('blog', {
     }
 })
 
-module.export = Blog
+module.exports = Blog
