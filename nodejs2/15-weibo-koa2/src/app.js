@@ -16,6 +16,7 @@ const { isProd } = require('./utils/env')
 
 // router
 const homeAPIRouter = require('./routes/api/blog-home')
+const profileAPIRouter = require('./routes/api/blog-profile')
 const userViewRouter = require('./routes/views/user')
 const userAPIRouter = require('./routes/api/user')
 const blogViewRouter = require('./routes/views/blog')
@@ -72,7 +73,8 @@ app.use(session({
 }))
 
 // 注册routes
-app.use(homeAPIRouter.routes(), homeAPIRouter.allowedMethods())
+ app.use(homeAPIRouter.routes(), homeAPIRouter.allowedMethods())
+app.use(profileAPIRouter.routes(), profileAPIRouter.allowedMethods())
 app.use(userViewRouter.routes(), userViewRouter.allowedMethods())
 app.use(userAPIRouter.routes(), userAPIRouter.allowedMethods())
 app.use(blogViewRouter.routes(), blogViewRouter.allowedMethods())
