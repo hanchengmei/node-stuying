@@ -2,6 +2,7 @@
  * @description blog service层
  */
 const { Blog, User } = require('../db/model/index')
+const { formatBlog, formatUser } = require('./_format')
 
 /**
  * 创建微博
@@ -60,8 +61,9 @@ async function getBlogListByUser(
     let blogList = result.rows.map(row => row.dataValues)
 
     // 格式化
-    blogList.map(item => {
-        const user = item.user.dataValues
+    blogList = formatBlog(blogList)
+    blogList = blogList.map(item => {
+        const user = formatUser(item.user.dataValues)
         item.user = user
         return item
     })

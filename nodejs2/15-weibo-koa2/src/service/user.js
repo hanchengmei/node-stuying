@@ -3,7 +3,7 @@
  * 查询数据库，格式化获取的结果，并返回给业务逻辑层
  */
 const { User } = require('../db/model/index')
-const { formatUserList } = require('./_format')
+const { formatUser } = require('./_format')
 
 /**
  * 获取用户信息
@@ -30,7 +30,7 @@ async function getUserInfo(userName, password) {
         return result
     }
     // 查询到并格式化
-    return formatUserList(result.dataValues)
+    return formatUser(result.dataValues)
 
 }
 
