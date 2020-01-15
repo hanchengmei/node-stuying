@@ -59,3 +59,8 @@ const SCHEMA = {
 7、创建微博时，需要userId，是从session.userInfo中获取
 
 8、创建微博时, xss预防 xss插件
+
+9、格式化时间  date-fns插件
+
+10、SSR渲染 直接由后台获取数据渲染，不通过前端调接口
+    如，profile页中blog列表的第一页，直接由业务逻辑层返回数据给页面路由渲染
