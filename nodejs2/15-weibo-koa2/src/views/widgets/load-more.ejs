@@ -12,6 +12,7 @@
 
     // 加载更多
     $btnLoadMore.click(function () {
+        console.log('页面收到的参数', PAGE_INDEX)
         var nextPageIndex = PAGE_INDEX + 1
         ajax.get(api + '/' + nextPageIndex, function(err, data) {
             if (err) {
@@ -19,6 +20,7 @@
                 alert(err)
                 return
             }
+            console.log('页面收到的参数2', data)
             // 更新 pageIndex
             PAGE_INDEX = data.pageIndex
 

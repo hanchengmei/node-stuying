@@ -26,7 +26,7 @@ async function createBlog({ userId, content, image }) {
  * @returns {Promise<void>}
  */
 async function getBlogListByUser(
-    { userName, pageIndex = 0, pageSize = 10}
+    { userName, pageIndex = 0, pageSize = 10 }
 ) {
     const whereOpt = {}
     if (userName) {

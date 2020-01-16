@@ -20,6 +20,7 @@ const profileAPIRouter = require('./routes/api/blog-profile')
 const userViewRouter = require('./routes/views/user')
 const userAPIRouter = require('./routes/api/user')
 const blogViewRouter = require('./routes/views/blog')
+const squareAPIRouter = require('./routes/api/blog-square')
 const utilAPIRouter = require('./routes/api/util')
 const errorRouterView = require('./routes/views/error')
 
@@ -73,11 +74,12 @@ app.use(session({
 }))
 
 // 注册routes
- app.use(homeAPIRouter.routes(), homeAPIRouter.allowedMethods())
+app.use(homeAPIRouter.routes(), homeAPIRouter.allowedMethods())
 app.use(profileAPIRouter.routes(), profileAPIRouter.allowedMethods())
 app.use(userViewRouter.routes(), userViewRouter.allowedMethods())
 app.use(userAPIRouter.routes(), userAPIRouter.allowedMethods())
 app.use(blogViewRouter.routes(), blogViewRouter.allowedMethods())
+app.use(squareAPIRouter.routes(), squareAPIRouter.allowedMethods())
 app.use(utilAPIRouter.routes(), utilAPIRouter.allowedMethods())
 // app.use(errorRouterView.routes(), errorRouterView.allowedMethods())
 
