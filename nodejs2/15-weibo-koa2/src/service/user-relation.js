@@ -36,6 +36,33 @@ async function getUserByFollower(followerId) {
     }
 }
 
+/**
+ * 添加关注关系 userId关注followerId
+ * @param {number} userId 用户
+ * @param {number} followerId 被关注者
+ * @returns {Promise<void>}
+ */
+async function addFollower(userId, followerId) {
+    const result = await UserRelation.create({
+        userId,
+        followerId
+    })
+    return result.dataValues
+}
+
+async function deleteFollower(userId, followerId) {
+    const result = await UserRelation.destroy({
+        where: {
+            userId,
+            followerId
+        }
+    })
+    return result > 0
+}
+
+
 module.exports = {
-    getUserByFollower
+    getUserByFollower,
+    addFollower,
+    deleteFollower
 }

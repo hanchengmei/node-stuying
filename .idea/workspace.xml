@@ -4,10 +4,11 @@
     <list default="true" id="420ab780-9c04-4749-89ae-30efb30b9158" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/koa2-weibo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/koa2-weibo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/beizu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/beizu.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/db/model/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/db/model/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/controller/user-relation.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/controller/user-relation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/api/blog-profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/api/blog-profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/views/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/views/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/profile.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/profile.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/service/user-relation.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/service/user-relation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/widgets/user-info.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/widgets/user-info.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <workItem from="1579051741611" duration="9130000" />
       <workItem from="1579069545254" duration="7822000" />
       <workItem from="1579137594616" duration="569000" />
-      <workItem from="1579138333115" duration="13353000" />
+      <workItem from="1579138333115" duration="16279000" />
     </task>
     <servers />
   </component>
