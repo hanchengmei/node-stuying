@@ -70,3 +70,5 @@ const SCHEMA = {
 
 11、缓存 square页面的列表 从缓存中获取，如果没有，再从数据库中获取
     缓存用redis 设置缓存过期时间 expire（key, time）
+
+12、userRelation表的外键

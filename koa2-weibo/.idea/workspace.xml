@@ -4,12 +4,9 @@
     <list default="true" id="26887d87-a526-468d-9c79-ba7c4578c621" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/beizu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/beizu.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/controller/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/controller/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/db/model/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/db/model/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/routes/views/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/routes/views/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/service/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/service/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/views/widgets/load-more.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/views/widgets/load-more.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/views/profile.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs2/15-weibo-koa2/src/views/profile.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,7 @@
       <workItem from="1579068558755" duration="8000" />
       <workItem from="1579069557553" duration="7161000" />
       <workItem from="1579137594616" duration="568000" />
-      <workItem from="1579138333379" duration="4651000" />
+      <workItem from="1579138333379" duration="10131000" />
     </task>
     <servers />
   </component>
