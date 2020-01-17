@@ -21,6 +21,11 @@ User.hasMany(UserRelation, {
     foreignKey: 'followerId'
 })
 
+Blog.belongsTo(UserRelation, {
+    foreignKey: 'userId',
+    targetKey: 'followerId'
+})
+
 module.exports = {
     User,
     Blog,

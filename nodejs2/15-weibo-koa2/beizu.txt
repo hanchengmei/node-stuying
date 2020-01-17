@@ -72,3 +72,5 @@ const SCHEMA = {
     缓存用redis 设置缓存过期时间 expire（key, time）
 
 12、userRelation表的外键
+
+13、首页blog列表显示的是登录用户和其关注的人的blog列表，可以设置自己关注自己，统一为关注的人的blog

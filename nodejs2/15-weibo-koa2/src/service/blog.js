@@ -1,7 +1,7 @@
 /**
  * @description blog service层
  */
-const { Blog, User } = require('../db/model/index')
+const { Blog, User, UserRelation } = require('../db/model/index')
 const { formatBlog, formatUser } = require('./_format')
 
 /**
@@ -74,7 +74,51 @@ async function getBlogListByUser(
     }
 }
 
+/**
+ * 获取被关注者的blog列表（首页）
+ * @param userId
+ * @param pageIndex
+ * @param pageSize
+ * @returns {Promise<{count: *, blogList: *}>}
+ */
+async function getFollowersBlogList({ userId, pageIndex = 0, pageSize = 10}) {
+    const result = await Blog.findAndCountAll({
+        limit: pageSize,
+        offset: pageIndex * pageSize,
+        order: [
+            ['id', 'desc']
+        ],
+        include: [
+            {
+                model: User,
+                attributes: ['userName', 'nickName', 'picture']
+            },
+            {
+                model: UserRelation,
+                attributes: ['userId', 'followerId'],
+                where: {
+                    userId
+                }
+            }
+        ]
+    })
+
+    let blogList = result.rows.map(row => row.dataValues)
+
+    blogList = formatBlog(blogList)
+    blogList = blogList.map(item => {
+        item.user = formatUser(item.user.dataValues)
+        return item
+    })
+    console.log('首页查询数据',blogList)
+    return {
+        count: result.count,
+        blogList
+    }
+}
+
 module.exports = {
     createBlog,
-    getBlogListByUser
+    getBlogListByUser,
+    getFollowersBlogList
 }

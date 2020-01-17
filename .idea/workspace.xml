@@ -4,9 +4,15 @@
     <list default="true" id="420ab780-9c04-4749-89ae-30efb30b9158" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/koa2-weibo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/koa2-weibo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/controller/user-relation.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/controller/user-relation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/beizu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/beizu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/controller/blog-home.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/controller/blog-home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/db/model/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/db/model/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/api/blog-home.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/api/blog-home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/views/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/routes/views/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/service/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/service/blog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/service/user-relation.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/service/user-relation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/service/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/service/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs2/15-weibo-koa2/src/views/index.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +36,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\study\node-stuying\nodejs2\15-weibo-koa2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\study\node-stuying\nodejs2\15-weibo-koa2\src\views\widgets" />
       <recent name="F:\study\node-stuying\nodejs2\15-weibo-koa2\uploadFiles" />
       <recent name="F:\study\node-stuying\nodejs2\15-weibo-koa2\src\views" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\study\node-stuying\nodejs2\15-weibo-koa2" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -76,7 +82,7 @@
       <workItem from="1579137594616" duration="569000" />
       <workItem from="1579138333115" duration="18648000" />
       <workItem from="1579165937326" duration="2117000" />
-      <workItem from="1579224021715" duration="1708000" />
+      <workItem from="1579224021715" duration="8174000" />
     </task>
     <servers />
   </component>
