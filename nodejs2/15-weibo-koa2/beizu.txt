@@ -74,3 +74,10 @@ const SCHEMA = {
 12、userRelation表的外键
 
 13、首页blog列表显示的是登录用户和其关注的人的blog列表，可以设置自己关注自己，统一为关注的人的blog
+
+14、外键
+    a.belongsTo(b)  a是源模型， b是目标模型
+
+    belongsTo 会向源模型中插入关联键，hasOne 会向目标模型插入关联键
+
+    a.hasMany(b) 向b中添加一个关联键关联到a的id上

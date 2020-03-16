@@ -8,6 +8,7 @@ const { isTest } = require('../../utils/env')
 const { isExist, register, login, deleteCurUser, changeInfo, changePassword, logout } = require('../../controller/user')
 const { genValidator } = require('../../middlewares/validator')
 const { loginCheck } = require('../../middlewares/loginChecks')
+const { getFollowers } = require('../../controller/user-relation')
 
 // 给路由加前缀
 router.prefix('/api/user')
@@ -76,6 +77,18 @@ router.patch('/changePassword', loginCheck, genValidator(userValidator), async (
 // 退出
 router.post('/logout', async (ctx, next) => {
     ctx.body = await logout(ctx)
+})
+
+// 获取at列表，即关注人列表
+router.get('/getAtList', loginCheck, async (ctx, next) => {
+    const { id: userId } = ctx.session.userInfo
+    const result = await getFollowers(userId)
+    const { followersList } = result.data
+    const list = followersList.map(user => {
+        return `${ user.nickName} - ${user.userName}`
+    })
+    // 格式如 ['张三 - zhangsan', '李四 - lisi', '昵称 - userName']
+    ctx.body = list
 })
 
 module.exports = router

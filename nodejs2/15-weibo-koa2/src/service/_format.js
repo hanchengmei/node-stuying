@@ -1,6 +1,7 @@
 /**
  * @description 格式化数据
  */
+const { REG_FOR_AT_WHO } = require('../conf/constant')
 const { timeFormat } = require('../utils/dt')
 
 /**
@@ -43,6 +44,26 @@ function _formatDBTime(obj) {
 }
 
 /**
+ * 格式化blog内容 给at的人加链接
+ * @param {object} obj blog
+ * @private
+ */
+function _formatContent(obj) {
+    obj.contentFormat = obj.content
+    debugger
+    obj.contentFormat = obj.contentFormat.replace(
+        REG_FOR_AT_WHO,
+        (matchStr, nickName, userName) => {
+            console.log('匹配第一个参数：', matchStr)
+            console.log('匹配第二个参数：', nickName)
+            console.log('匹配第三个参数：', userName)
+            return `<a href="/profile/${userName}">@${nickName}</a>`
+        }
+    )
+    return obj
+}
+
+/**
  * 格式化blog
  * @param (Object | Array) list 单个或多个blog
  */
@@ -52,15 +73,17 @@ function formatBlog(list) {
     }
     if (list instanceof Array) {
         // 多个blog
-        return list.map(_formatDBTime)
+        return list.map(_formatDBTime).map(_formatContent)
     }
+
     // 单个blog
     let result = list
     result = _formatDBTime(result)
+    result = _formatContent(result)
     return result
 }
 
 module.exports = {
     formatUser,
-    formatBlog
+    formatBlog,
 }

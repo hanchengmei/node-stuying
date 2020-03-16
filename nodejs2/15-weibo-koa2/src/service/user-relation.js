@@ -12,6 +12,7 @@ const Sequelize = require('sequelize')
  */
 async function getUserByFollower(followerId) {
     console.log('被关注人：', followerId)
+    // 先查到user 中与 UserRelation中userid关联的行，再筛选 followerId
     const result = await User.findAndCountAll({
         attributes: ['id', 'userName', 'nickName', 'picture'],
         order: [
@@ -46,6 +47,7 @@ async function getUserByFollower(followerId) {
  * @param userId
  */
 async function getFollowerByUser(userId) {
+    // 在 UserRelation 中找到所有的userId行， UserRelation中的 followerId 和 user表中的id关联
     const result = await UserRelation.findAndCountAll({
         order: [
             ['id', 'desc']

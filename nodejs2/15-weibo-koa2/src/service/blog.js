@@ -62,6 +62,7 @@ async function getBlogListByUser(
 
     // 格式化
     blogList = formatBlog(blogList)
+    console.log('profiel查询数据',blogList)
     blogList = blogList.map(item => {
         const user = formatUser(item.user.dataValues)
         item.user = user
@@ -75,7 +76,8 @@ async function getBlogListByUser(
 }
 
 /**
- * 获取被关注者的blog列表（首页）
+ * 登录用户为a, a关注了b
+ * 获取b的blog列表（首页）
  * @param userId
  * @param pageIndex
  * @param pageSize
@@ -106,11 +108,12 @@ async function getFollowersBlogList({ userId, pageIndex = 0, pageSize = 10}) {
     let blogList = result.rows.map(row => row.dataValues)
 
     blogList = formatBlog(blogList)
+    console.log('首页查询数据',blogList)
     blogList = blogList.map(item => {
         item.user = formatUser(item.user.dataValues)
         return item
     })
-    console.log('首页查询数据',blogList)
+
     return {
         count: result.count,
         blogList

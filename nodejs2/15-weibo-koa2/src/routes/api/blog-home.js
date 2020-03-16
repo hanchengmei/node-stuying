@@ -8,7 +8,7 @@ const blogValidator = require('../../validator/blog')
 const { loginCheck } = require('../../middlewares/loginChecks')
 const { genValidator } = require('../../middlewares/validator')
 const { create, getHomeBlogList } = require('../../controller/blog-home')
-const { getBlogListStr } = require('../../utils/blog')
+const { getBlogListStr } = require('../../utils/blogs')
 
 
 router.prefix('/api/blog')
